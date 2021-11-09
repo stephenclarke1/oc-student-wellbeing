@@ -453,7 +453,7 @@ h2 {
     }
 }
 
-@media screen and (min-width: 1150px) {
+@media screen and (min-width: 1160px) {
 
     .nav-toggle {
         display: none;
@@ -480,7 +480,7 @@ h2 {
     }
 }
 
-@media screen and (max-width: 1150px) {
+@media screen and (max-width: 1159px) {
     .grid-container {
     grid-template:
     "header header" 124.5px
