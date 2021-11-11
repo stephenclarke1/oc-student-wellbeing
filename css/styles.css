@@ -518,6 +518,10 @@ h2 {
     html {
         font-size: 14px;
     }
+
+    .form-container iframe{
+        display: none;
+    }
 }
 
 @media screen and (max-width: 911px) {
@@ -640,10 +644,6 @@ h2 {
     .map {
         width: 95vw;
         height: 75vw;
-    }
-
-    .form-container iframe{
-        display: none;
     }
 }
 
