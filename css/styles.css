@@ -27,7 +27,7 @@ html {
 }
 
 body {
-    padding: 0 auto;
+    padding: 0;
     margin: 0 auto;
     height: 100%;
 }
@@ -669,8 +669,6 @@ h2 {
     }
 
     .homepage-hero {
-        grid-template:
-        "buttons";
         overflow: visible;
     }
 
