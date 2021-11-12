@@ -16,7 +16,9 @@
         <div class="grid-container">
             <div class="header">
                 <a href="index.html" class="logo-link"><img src="img/logo.svg" alt="logo" class="logo"></a>
+                <!-- checkbox that toggles the mobile navigation -->
                 <input id="nav-toggle" type="checkbox">
+                <!-- top navbar links -->
                 <ul class="nav-links">
                     <li><a href="index.html">Home</a></li>
                     <li><a class="current" href="get-help.html">Get Help</a></li>
@@ -25,9 +27,11 @@
                     <li><a href="peer-mediation.html">Peer Mediation</a></li>
                     <li><a href="contact.html">Contact</a></li>
                 </ul>
+                <!-- This label is text that shows 'menu' instead of a checkbox -->
                 <label for="nav-toggle" class="nav-toggle"><span>Menu</span></label>
             </div>
             <div class="hero" style="background-image: url('img/banners/sunrise.jpg');">
+                <!-- this span is for adding an aria label to the background image, so that people using screen readers get alt text -->
                 <span class="background-image" role="img" aria-label="A sunrise over a large body of water"></span>
                 <h1>Get Help</h1>
             </div>
